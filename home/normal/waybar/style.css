@@ -1,0 +1,20 @@
+* {
+    font-family: Hack Nerd Font;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid rgba(0, 180, 255, 1.0);
+}
+
+#network,
+#tray,
+#pulseaudio,
+#temperature,
+#cpu,
+#memory,
+#clock {
+    color: #ffffff;
+    padding: 0 5px;
+}

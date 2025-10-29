@@ -1,0 +1,54 @@
+// -*- mode: jsonc -*-
+{
+    "position": "bottom",
+    "height": 20,
+    "spacing": 10,
+
+    "modules-left": [
+        "network",
+        "tray"
+    ],
+    "network": {
+        "format-ethernet": "{ipaddr}",
+        "format-disconnected": "OFFLINE",
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 5,
+        "tooltip": false
+    },
+
+    "modules-center": [
+        "pulseaudio"
+    ],
+    "pulseaudio": {
+        "format": "{volume}%   | {format_source} ",
+        "format-muted": "MUTE   | {format_source} ",
+        "format-source": "{volume}%",
+        "format-source-muted": "MUTE",
+        "tooltip": false
+    },
+
+    "modules-right": [
+        "temperature",
+        "cpu",
+        "memory",
+        "clock"
+    ],
+    "temperature": {
+        "format": "{temperatureC}°C",
+        "tooltip": false
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}% ",
+        "tooltip": false
+    },
+    "clock": {
+        "tooltip": false
+    }
+}
