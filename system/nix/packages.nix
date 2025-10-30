@@ -31,7 +31,6 @@
     hyprpolkitagent
     keepassxc
     krita
-    librewolf
     neovim
     openrazer-daemon
     polychromatic
