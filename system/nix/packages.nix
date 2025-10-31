@@ -21,6 +21,7 @@
     bc
     brave
     cargo
+    cowsay
     discord
     feh
     fnott
