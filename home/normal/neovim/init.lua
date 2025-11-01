@@ -225,16 +225,20 @@ require("lazy").setup({
 			local capabilities = require("blink.cmp").get_lsp_capabilities()
 			local servers = {
 				-- NOTE: Servers.
+				basedpyright = {},
 				lua_ls = {},
 				nil_ls = {},
+				ruff = {},
 				tombi = {},
 			}
 
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
-				-- NOTE: Formatters.
-				"stylua",
+				-- NOTE: Servers and formatters.
 				"alejandra",
+				"basedpyright",
+				"ruff",
+				"stylua",
 				"tombi",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
@@ -276,9 +280,10 @@ require("lazy").setup({
 				}
 			end,
 			formatters_by_ft = {
-				-- NOTE: Formatters again.
+				-- NOTE: Formatters.
 				lua = { "stylua" },
 				nix = { "alejandra" },
+				python = { "ruff_format", "ruff_organize_imports" },
 				toml = { "tombi" },
 			},
 		},
