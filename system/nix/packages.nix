@@ -18,6 +18,7 @@
 
   environment.systemPackages = with pkgs; [
     alacritty
+    audacity
     bc
     brave
     cargo
