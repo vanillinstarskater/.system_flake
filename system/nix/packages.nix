@@ -35,6 +35,7 @@
     krita
     neovim
     openrazer-daemon
+    pavucontrol
     polychromatic
     python3
     ripgrep
