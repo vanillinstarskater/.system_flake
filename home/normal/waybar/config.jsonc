@@ -49,6 +49,7 @@
         "tooltip": false
     },
     "clock": {
+        "format": "{:%I:%M %p}",
         "tooltip": false
     }
 }
