@@ -20,6 +20,7 @@
     alacritty
     audacity
     bc
+    blender
     brave
     cargo
     cowsay
