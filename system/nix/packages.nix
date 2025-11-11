@@ -29,6 +29,7 @@
     fnott
     gcc
     git
+    grim
     home-manager
     hplip
     hyprpolkitagent
@@ -40,6 +41,7 @@
     polychromatic
     python3
     ripgrep
+    slurp
     swaybg
     unzip
     wofi
