@@ -45,6 +45,7 @@
     slurp
     swaybg
     unzip
+    vlc
     wofi
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
