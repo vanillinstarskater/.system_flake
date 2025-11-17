@@ -15,39 +15,45 @@
     hyprland.enable = true;
     waybar.enable = true;
   };
-
-  environment.systemPackages = with pkgs; [
-    alacritty
-    audacity
-    bc
-    blender
-    brave
-    cargo
-    cowsay
-    discord
-    feh
-    fnott
-    gcc
-    git
-    grim
-    home-manager
-    hplip
-    hyprpolkitagent
-    keepassxc
-    krita
-    neovim
-    openrazer-daemon
-    pavucontrol
-    polychromatic
-    prismlauncher
-    python3
-    ripgrep
-    slurp
-    swaybg
-    unzip
-    vlc
-    wofi
-    xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
+  environment.systemPackages = [
+    pkgs.alacritty
+    pkgs.audacity
+    pkgs.bc
+    pkgs.blender
+    pkgs.brave
+    pkgs.cargo
+    pkgs.cowsay
+    pkgs.discord
+    pkgs.feh
+    pkgs.fnott
+    pkgs.gcc
+    pkgs.git
+    pkgs.grim
+    pkgs.home-manager
+    pkgs.hplip
+    pkgs.hyprpolkitagent
+    pkgs.keepassxc
+    pkgs.krita
+    pkgs.neovim
+    pkgs.openrazer-daemon
+    pkgs.pavucontrol
+    pkgs.polychromatic
+    pkgs.prismlauncher
+    pkgs.python3
+    pkgs.ripgrep
+    pkgs.slurp
+    pkgs.swaybg
+    pkgs.unzip
+    pkgs.vlc
+    pkgs.wofi
+    (pkgs.wrapOBS {
+      plugins = with pkgs.obs-studio-plugins; [
+        obs-pipewire-audio-capture
+        obs-source-switcher
+        wlrobs
+      ];
+    })
+    pkgs.xdg-desktop-portal-gtk
+    pkgs.xdg-desktop-portal-hyprland
   ];
 }
