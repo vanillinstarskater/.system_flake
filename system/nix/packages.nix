@@ -39,6 +39,7 @@
     openrazer-daemon
     pavucontrol
     polychromatic
+    prismlauncher
     python3
     ripgrep
     slurp
