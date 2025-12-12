@@ -1,6 +1,6 @@
 {...}: {
   networking = {
-    firewall.enable = false;
+    firewall.enable = true;
     hostName = "uwu";
     networkmanager.enable = true;
   };
