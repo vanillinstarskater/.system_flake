@@ -1,6 +1,5 @@
 {pkgs, ...}: {
   nixpkgs.config = {
-    cudaSupport = true;
     allowUnfree = true;
   };
 
