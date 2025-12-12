@@ -33,6 +33,7 @@
     pkgs.keepassxc
     pkgs.krita
     pkgs.neovim
+    pkgs.obsidian
     pkgs.openrazer-daemon
     pkgs.pavucontrol
     pkgs.polychromatic
