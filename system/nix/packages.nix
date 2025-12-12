@@ -19,7 +19,6 @@
     pkgs.audacity
     pkgs.bc
     pkgs.blender
-    pkgs.brave
     pkgs.cargo
     pkgs.cowsay
     pkgs.discord
@@ -43,6 +42,7 @@
     pkgs.slurp
     pkgs.swaybg
     pkgs.unzip
+    pkgs.vivaldi
     pkgs.vlc
     pkgs.wofi
     (pkgs.wrapOBS {
