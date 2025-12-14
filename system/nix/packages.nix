@@ -41,6 +41,7 @@
     pkgs.python3
     pkgs.ripgrep
     pkgs.slurp
+    pkgs.spotify
     pkgs.swaybg
     pkgs.unzip
     pkgs.vivaldi
