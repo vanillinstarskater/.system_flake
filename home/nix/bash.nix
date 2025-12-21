@@ -16,6 +16,7 @@
       alias cl='clear'
 
       alias rm='rm -rf'
+      alias cp='cp -r'
 
       alias :q='exit'
     '';
