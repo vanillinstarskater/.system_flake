@@ -5,7 +5,7 @@
       PS1='[\u@\H \W]$ '
       set -o vi
 
-      alias diary='python ~/.local/diaryscript/main.py'
+      alias scratchpad='python ~/.system_flake/assets/scratchpad.py'
 
       alias vi='nvim'
 
